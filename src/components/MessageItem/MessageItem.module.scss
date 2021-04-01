@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  margin: 30px 0;
+}
+
+.userName {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.card {
+  position: relative;
+}
+
+.stateWrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.date {
+  margin: 0;
+  margin-right: 15px;
+}
+
+.controls {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

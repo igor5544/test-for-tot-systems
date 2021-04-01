@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.title {
+  text-align: center;
+}
+
+.chatWrapper {
+  height: 55vh;
+  overflow-y: scroll;
+  margin-bottom: 3vh;
+}

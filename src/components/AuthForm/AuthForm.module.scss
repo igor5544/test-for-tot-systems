@@ -1,0 +1,21 @@
+.form {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.alert {
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  transition: all 0.3s;
+  max-width: 150px;
+  width: 100%;
+  display: block;
+  margin: 0 auto 20px auto;
+
+  &:disabled {
+    opacity: 0.3;
+  }
+}
