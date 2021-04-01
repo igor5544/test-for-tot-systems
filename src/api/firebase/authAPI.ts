@@ -14,6 +14,7 @@ export const authAPI = {
             .doc(login.toLowerCase()).set({
                 login,
                 password,
+                imgUrl: null,
             }).then(() =>
                 true
             )

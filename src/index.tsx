@@ -4,7 +4,7 @@ import './index.css';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './redux/redux-store';
 
@@ -18,11 +18,11 @@ const mainTheme = createMuiTheme({
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <HashRouter>
             <ThemeProvider theme={mainTheme}>
                 <App/>
             </ThemeProvider>
-        </BrowserRouter>
+        </HashRouter>
     </Provider>
     ,
     document.getElementById('root')
